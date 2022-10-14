@@ -48,7 +48,7 @@ else if (temp <85 && temp >70){
 // make value for description
 let desc = data.weather ? data.weather[0].main : null
 console.log(desc);
-if (desc === 'Rain'){
+if (desc === 'Rain' || desc === 'Snow'){
   descNum = 0;
   //backgroundImage = Rain;
 }
