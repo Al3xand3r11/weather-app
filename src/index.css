@@ -102,3 +102,12 @@ h1{
 .bold{
   font-weight: 800;
 }
+
+.Stars{
+  text-align: center;
+  padding: 3rem;
+  font-weight: 500;
+}
+img{
+  width: 600px;
+}
